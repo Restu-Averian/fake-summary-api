@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "title": "Version Control and Branch Management (Git)",
+        "deskripsi": "<h1>02 Version Control and Branch Management (Git)</h1><h2>Resume</h2><p>Versioning merupakan mengatur versi dari program</p><p>Git merupakan salah satu version control system populer yang digunakan para developer untuk mengembangkan software secara bersama-bersama</p><h3>Command Git</h3><p>Beberapa command git yang sering digunakan, yaitu :</p><ol><li><code>git config</code>  <br />Mengatur konfigurasi, seperti email, username, dsb.</li><li><code>git init</code>  <br />Mengatur sebuah folder sebagai repositori git kita</li><li><code>git clone</code>  <br />Untuk mengclone atau mendownload repository dari server</li><li><code>git status</code>  <br />Untuk melihat status repo, misal seperti apakah ada file yang berada dalam working area</li><li><code>git add</code>  <br />Untuk menambahkan file dari working area ke staging area</li><li><code>git commit</code>  <br />Untuk memasukkan ke repository local yang dibarengi dengan pesan commit</li><li><code>git push</code>  <br />Untuk memasukkan dari repository local ke repository server</li><li><code>git branch</code>   <br />Bisa untuk menambahkan, melihat, dan menghapus branch yang tersedia</li><li><code>git checkout</code>  <br />Untuk pindah branch dan bisa juga untuk buat branch dan langsung pindah ke branch yang baru dibuat</li><li><code>git merge</code>  <br />Untuk menggabungkan branch ke branch yang aktif</li><li><code>git diff</code>  <br />Untuk melihat perbedaan antara kode sebelum ditambahkan dengan yang telah ditambahkan</li><li><code>git stash</code>  <br />Untuk menyimpan perubahan tanpa langsung commit, namun hanya sementara</li></ol><h3>Area dalam Git</h3><p>Terdapat 3 area dalam git, yaitu :</p><ol><li>Working Area <br />Area di saat kita bekerja. Untuk memindahkannya ke Staging area, bisa melakukan command<code>git add .</code> -> untuk menambahkan semua file dari Working area ke staging area.</li><li>Staging AreaArea di mana sebelum memasuki repository. File yang berada pada area ini masih dapat dikembalikan ke Working Area Untuk menambahkannya ke Repository, dapat mengetikkan perintah<code>git commit -m &quot;pesanCommit&quot;</code></li><li>Repository File yang berada pada area ini, masih berada pada repository local. Untuk memasukkannya ke repository global yang terdapat pada github, dapat mengetikkan perintah<code>git push -u origin namaBranch</code></li></ol><h3 >Task</h3><p>Pada task ini, kita membuat branch fitur-1 dan fitur-2 yang akan dimerge ke branch development</p><p>berikut kode hasil dari praktikum ini. <br /><a href='https://github.com/Restu-Averian/vue_restu-averian-putra/tree/main/02_Version%20Control%20and%20Branch%20Management%20(Git)/praktikum'>Kode Hasil Praktikum</a></p><p>Output dari Network Graph nya :<img src='https://github.com/Restu-Averian/vue_restu-averian-putra/blob/main/02_Version%20Control%20and%20Branch%20Management%20(Git)/screenshot/Network%20Graph.png' alt='Screenshot Network Graph'> <br /></p><h3>Demo</h3><p>Link : <a href='https://restuap-01git-kampus-merdeka-web-alta-lite.netlify.app/'>Web Alta Versi Lite 🗿</a></p>",
+        "gambar": "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/02/15/493056715.png"
+    },
+    {
+        "id": "2",
+        "title": "Introduction UI and UX",
+        "deskripsi": "<h1>Test deskripsi untuk UI and UX</h1>",
+        "gambar": "https://i.pinimg.com/736x/94/65/14/946514d6322a9a415926d522e2e014e6.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Figma",
+        "deskripsi": "<h1>Test deskripsi untuk UI and UX</h1>",
+        "gambar": "https://i.pinimg.com/736x/94/65/14/946514d6322a9a415926d522e2e014e6.jpg"
+    }
+]
